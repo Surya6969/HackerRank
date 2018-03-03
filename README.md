@@ -2,6 +2,10 @@
 
 A collection of algorithms and solutions to problems in various languages from the site [Hacker Rank](https://www.hackerrank.com/).
 
+[My profile](https://www.hackerrank.com/mkuna)
+
+---
+
 ## Subdomains
 
 ### Warmup
