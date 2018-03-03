@@ -1,6 +1,6 @@
-Complete the function solveMeFirst to compute the sum of two integers.
+# Complete the function solveMeFirst to compute the sum of two integers
 
-##Function prototype:
+## Function prototype
 
 int solveMeFirst(int x, int y);
 
@@ -9,24 +9,25 @@ where,
 * x is the first integer input.
 * y is the second integer input
 
-##Return values
+## Return values
 
 * sum of the above two integers
 
-##Sample Input
+## Sample Input
 
 x = 2
 y = 3
 
-##Sample Output
+## Sample Output
 
 5
 
-##Explanation
+## Explanation
 
 The sum of the two integers x and y is computed as: 2 + 3 = 5.
 
-# C
+## C
+
 ```c
 #include <cmath>
 #include <cstdio>
