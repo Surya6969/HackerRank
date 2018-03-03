@@ -1,6 +1,6 @@
 # 0001 Solve Me First
 
-## Complete the function solveMeFirst to compute the sum of two integers
+Complete the function solveMeFirst to compute the sum of two integers
 
 ## Function prototype
 
@@ -18,6 +18,7 @@ where,
 ## Sample Input
 
 x = 2
+
 y = 3
 
 ## Sample Output
