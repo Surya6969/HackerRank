@@ -1,4 +1,4 @@
-# 0001 Solve Me First
+# 0001 [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem)
 
 Complete the function solveMeFirst to compute the sum of two integers
 
@@ -32,25 +32,23 @@ The sum of the two integers x and y is computed as: 2 + 3 = 5.
 ## C
 
 ```c
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
-using namespace std;
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
 
 
 int solveMeFirst(int a, int b) {
-// Hint: Type return a+b; below:
+    // Hint: Type return a+b; below
 
 }
 
 int main() {
-  int num1, num2;
-  int sum;
-  cin>>num1>>num2;
-  sum = solveMeFirst(num1,num2);
-  cout<<sum;
-  return 0;
+    int num1,num2;
+    scanf("%d %d",&num1,&num2);
+    int sum;
+    sum = solveMeFirst(num1,num2);
+    printf("%d",sum);
+    return 0;
 }
 ```

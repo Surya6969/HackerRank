@@ -1,4 +1,4 @@
-# 0002 Simple Array Sum
+# 0002 [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem)
 
 Given an array of integers, find the sum of its elements.
 
@@ -29,24 +29,27 @@ We print the sum of the array's elements: 1 + 2 + 3 + 4 + 10 + 11 = 31
 ## C
 
 ```c
-#include <bits/stdc++.h>
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
 
-using namespace std;
-
-int simpleArraySum(int n, vector <int> ar) {
-  // Complete this function
+int simpleArraySum(int n, int ar_size, int* ar) {
+    // Complete this function
 }
 
 int main() {
-  int n;
-  cin >> n;
-  vector<int> ar(n);
-  for(int ar_i = 0; ar_i < n; ar_i++){
-    cin >> ar[ar_i];
-  }
-  int result = simpleArraySum(n, ar);
-  cout << result << endl;
-  return 0;
-  }
+    int n;
+    scanf("%i", &n);
+    int *ar = malloc(sizeof(int) * n);
+    for(int ar_i = 0; ar_i < n; ar_i++){
+       scanf("%i",&ar[ar_i]);
+    }
+    int result = simpleArraySum(n, n, ar);
+    printf("%d\n", result);
+    return 0;
 }
 ```
