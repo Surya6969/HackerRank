@@ -1,6 +1,8 @@
 # 0004 [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem)
 
-![Problem](problem.png)
+![Problem](zproblem.png)
+
+## C
 
 ```c
 #include <math.h>
