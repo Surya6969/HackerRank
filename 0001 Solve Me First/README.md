@@ -1,4 +1,6 @@
-# Complete the function solveMeFirst to compute the sum of two integers
+# 0001 Solve Me First
+
+## Complete the function solveMeFirst to compute the sum of two integers
 
 ## Function prototype
 
@@ -38,9 +40,10 @@ using namespace std;
 
 
 int solveMeFirst(int a, int b) {
- // Hint: Type return a+b; below:
-  
+// Hint: Type return a+b; below:
+
 }
+
 int main() {
   int num1, num2;
   int sum;
